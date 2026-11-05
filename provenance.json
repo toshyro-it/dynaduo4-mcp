@@ -1,0 +1,227 @@
+{
+  "schemaVersion": 1,
+  "tool": "dist/mcp-overlay@1",
+  "package": "dynaduo4-mcp",
+  "version": "0.4.0",
+  "license": "MIT",
+  "sourceCommit": "1d38aab27027796a596cb3e1c1f356335bb0548a",
+  "typescript": "7.0.2",
+  "inputs": [
+    {
+      "path": "package.json",
+      "blob": "20e73efcd7c1c37e72e06d3185cf5a294739c709",
+      "sha256": "c3c9b4529253e8e9db88e189ce54ce2a2ed5bb0cc7758b796a7b6c849cd7d593"
+    },
+    {
+      "path": "package-lock.json",
+      "blob": "6d51c4fde0fb35aab2c8a7fcbc9c8aacd8f8758d",
+      "sha256": "5e9b3f1b68095cd8eef13671458dac2b26c2ea59ebe988a2aca2def307383425"
+    },
+    {
+      "path": "tsconfig.json",
+      "blob": "f272c6549c4e0abcd9f50046181bf58e72551f39",
+      "sha256": "03e13c8e35844a4eef069e0d8553966c495b0b74c18d2ee2804473bef8ac5fad"
+    },
+    {
+      "path": "LICENSE",
+      "blob": "27a694dd69aab6c3d9c520922a46186df74367f7",
+      "sha256": "e54c87a644804ce2c0e7a2ccbcaac60d291d9f8365e827789bf780baccfb5dd8"
+    },
+    {
+      "path": "bin/dynaduo4-mcp.mjs",
+      "blob": "924fff1230b60d80ceddc0a0a332e12fa95cc9f0",
+      "sha256": "2429c532730bd044bc60d1a2becbc68ac47d7a888d2165b4c443665871fae56f"
+    },
+    {
+      "path": "src/index.ts",
+      "blob": "f3d61d19f2e57546a0ca288142c2442fd3b52120",
+      "sha256": "1734556c1a72f7ee4e9cacc7ba154db1be6b810919d8047f87cb5ebc80abbe16"
+    },
+    {
+      "path": "src/config.ts",
+      "blob": "3fb2d99ad7fc41909dd50fffdfa7bc9c2a778559",
+      "sha256": "f7cdfe74bb23f92b51522ee67d6fefa5a3605e5eccfc8973cad0524a2c0c7721"
+    },
+    {
+      "path": "src/server.ts",
+      "blob": "4594d5b20e33bbfbd3b114422cbc3c518c51a633",
+      "sha256": "a9ea3dfbd1789fd29d6a76907c028f5c75060c3a10d13653925e8feeefe1fc67"
+    },
+    {
+      "path": "src/modules/crm/schemas.ts",
+      "blob": "0a8231d1e933f7c6255a716b6ecc51ffbd7f00cf",
+      "sha256": "49b77a002d3a81adfc3457c6c57748dbe9e7978b93d76b89ae2b18a6e66851ab"
+    },
+    {
+      "path": "src/modules/crm/tools.ts",
+      "blob": "28d626cdd39b246844fdb028c5e74558468039c4",
+      "sha256": "7c7b77a84bc1b18a9faf0658c98c338be5836c06dee5690e4a26cd9af0a5dbed"
+    },
+    {
+      "path": "src/modules/crm/write-tools.ts",
+      "blob": "272b722bb82d4774d364dc77ccd60b7c4faba047",
+      "sha256": "191569bffaed94d7b3e35cda47ab3cbfa1380d664541fdbf6406e1afd758753d"
+    },
+    {
+      "path": "src/modules/projetos/schemas.ts",
+      "blob": "b1a6132056b8e78c45af4f95af349215d3990247",
+      "sha256": "da0dba5db4666ae070759986a965a4a050a1c7a91209afd05ad7a1c487244370"
+    },
+    {
+      "path": "src/modules/projetos/tools.ts",
+      "blob": "da5419f8c92a91fc7b3cdf0c20ae1c96f447fe5a",
+      "sha256": "c00d71ec54de6adb75605b24abaf59bd8cd865a9fbd57d0eb5c5d0fb365bfec6"
+    },
+    {
+      "path": "src/modules/projetos/write-tools.ts",
+      "blob": "ef28781921675da12d923c0bc7225757c2a8152b",
+      "sha256": "a0209dc607b17335a528aedb7f776d5cf442c64a837d62dfc982eb2a2befec80"
+    },
+    {
+      "path": "src/shared/http/dynaduo-api-client.ts",
+      "blob": "cdf0000257cb0e1dc8b2b345303202495145f459",
+      "sha256": "aab65fcbabe5374ba3d7fa2b1995e2320b90c71633001be65458138fb5158777"
+    },
+    {
+      "path": "src/shared/mcp.ts",
+      "blob": "b0062355abc7e61460b20e9ad8a5416c9788d208",
+      "sha256": "18dae7a7b5cda375e48cf8f737f877e0b15d6b70302e137270569f951a6d63dc"
+    },
+    {
+      "path": "src/shared/outputs.ts",
+      "blob": "ba38825fc6dc984b0ad38e1e144a028e0da85fcb",
+      "sha256": "82020b33339f6d5d373f4cf27b7885f6d1ff1bbc99f4bcd36043393dedb30019"
+    },
+    {
+      "path": "src/shared/validation.ts",
+      "blob": "591f410524763ded3cf4237c1e80b3aaf0a24f59",
+      "sha256": "e687f5d162fe781dfeb7bdd6c18ea7412b9374b761de8b73b3f9a1e79a70917f"
+    },
+    {
+      "path": "distribution/README.public.md",
+      "blob": "60a58a448b00ee088a19e2a542d07b2952ed0cda",
+      "sha256": "6961118a46563a2d53a63691a8572b9eed678a6e61e80b868ab0e2739380cbda"
+    },
+    {
+      "path": "distribution/THIRD_PARTY_NOTICES.md",
+      "blob": "a5c7211083b289bd0dfe154d2e40b60e9d9af6bd",
+      "sha256": "2580c1e894cd9712be5e2a6c35a7df56cc74302098477b312749b1e13f93dfe5"
+    },
+    {
+      "path": "distribution/release/VERSION",
+      "blob": "1d0ba9ea182b0f7354f3daf12120744ec5e0c2f8",
+      "sha256": "40b8eb4000a913a7791090535f291d3d369874162a89ef3c9e3d4e887a1b9e79"
+    },
+    {
+      "path": "distribution/release/RELEASE_NOTES.md",
+      "blob": "160b1afe9ff07cb0471151c965098801a45a49b7",
+      "sha256": "e75936550208932526c5ee9a9f345d53e334eea311f8310f9a1156a7f361d7d1"
+    },
+    {
+      "path": "distribution/release/LICENSE_REVIEW.md",
+      "blob": "3bd142e28ccbd2d2e689cf599acb5dc94dbfde6b",
+      "sha256": "6c7b9be5529c34d4a09c0528bb49caeea213e9b734d1ba599f76dd5b64be70f6"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "bin/dynaduo4-mcp.mjs",
+      "bytes": 47,
+      "sha256": "2429c532730bd044bc60d1a2becbc68ac47d7a888d2165b4c443665871fae56f"
+    },
+    {
+      "path": "dist/config.js",
+      "bytes": 941,
+      "sha256": "ff3d74c942baf8b33e8202cf485ad6f553b7ea11ec5492eb56f386acb3eec129"
+    },
+    {
+      "path": "dist/index.js",
+      "bytes": 571,
+      "sha256": "10e12654885f61d909ae2fc43c7be6df7faa511184ab1e21f305d06d50628ecd"
+    },
+    {
+      "path": "dist/modules/crm/schemas.js",
+      "bytes": 9432,
+      "sha256": "27d4e0982f4e9d6d24bc1787d2eae69bf5caa266794f6151ad5f9ca54d7e4ba2"
+    },
+    {
+      "path": "dist/modules/crm/tools.js",
+      "bytes": 10609,
+      "sha256": "32cf04d7e134f2c0d0e4c08c2bc56b65bf5475bc60e8c491a3c482c08bee754f"
+    },
+    {
+      "path": "dist/modules/crm/write-tools.js",
+      "bytes": 9435,
+      "sha256": "0a821f633031108fa6f055034c2faa927fa1bccc084b32871703e63e1e3af6f6"
+    },
+    {
+      "path": "dist/modules/projetos/schemas.js",
+      "bytes": 4048,
+      "sha256": "4e19a9aed3b35d7bf6dadeeda0cfee2b532101503d22d779f11734ea68cdf1aa"
+    },
+    {
+      "path": "dist/modules/projetos/tools.js",
+      "bytes": 5723,
+      "sha256": "0e5624bd4ace284bbf05319b7b6f07201207ed47641d591788acef3414e2186b"
+    },
+    {
+      "path": "dist/modules/projetos/write-tools.js",
+      "bytes": 4145,
+      "sha256": "e0bf6ca04005c1c7affd760e1b56ac6f49d806aac0e3083f0171a47c518d0c77"
+    },
+    {
+      "path": "dist/server.js",
+      "bytes": 1988,
+      "sha256": "018d33efde01abb3c05c9ed4a64b26c43109b768b9449183b962172a993e8e4a"
+    },
+    {
+      "path": "dist/shared/http/dynaduo-api-client.js",
+      "bytes": 7816,
+      "sha256": "d781611ac9e5e83ac9af1c3f7716d67846a5607184150dba17ab9c96f8bd17da"
+    },
+    {
+      "path": "dist/shared/mcp.js",
+      "bytes": 2531,
+      "sha256": "2f19289a3e7835ef0c81e6e8d9eaf2f2ebaf7d2c3ca55f9aa0bd8fbe2178071c"
+    },
+    {
+      "path": "dist/shared/outputs.js",
+      "bytes": 1630,
+      "sha256": "00734fd8389a29159bf98d0aff871e6eeff559122136b90c1d07920a6770a300"
+    },
+    {
+      "path": "dist/shared/validation.js",
+      "bytes": 1174,
+      "sha256": "416077afc9d1e49b7dc52cbb6190f6e62b8819aae7368d39b1eceeee0d4f2f80"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1093,
+      "sha256": "e54c87a644804ce2c0e7a2ccbcaac60d291d9f8365e827789bf780baccfb5dd8"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 43244,
+      "sha256": "7b8ffc6568095303aa2d71e64b84931b246be558a2a1386a0428b477084026ab"
+    },
+    {
+      "path": "package.json",
+      "bytes": 932,
+      "sha256": "8ec8ecccaf7328ec380311e74b5d6db4f7e134649e7851a1071cb2c7391d1d02"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5206,
+      "sha256": "6961118a46563a2d53a63691a8572b9eed678a6e61e80b868ab0e2739380cbda"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 3992,
+      "sha256": "2580c1e894cd9712be5e2a6c35a7df56cc74302098477b312749b1e13f93dfe5"
+    }
+  ],
+  "publicationAuthorized": true,
+  "firstExposureApproved": false,
+  "licenseReview": "D4-LIC-01: closed 2026-11-05",
+  "notes": "Public tree staged by allowlist from immutable git objects. No tag, release or remote push performed."
+}

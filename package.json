@@ -1,0 +1,37 @@
+{
+  "name": "dynaduo4-mcp",
+  "version": "0.4.0",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "description": "Local stdio MCP adapter for the DynaDuo4 API (CRM and Projetos, read and write).",
+  "bin": {
+    "dynaduo4-mcp": "bin/dynaduo4-mcp.mjs"
+  },
+  "files": [
+    "bin/dynaduo4-mcp.mjs",
+    "dist/config.js",
+    "dist/index.js",
+    "dist/modules/crm/schemas.js",
+    "dist/modules/crm/tools.js",
+    "dist/modules/crm/write-tools.js",
+    "dist/modules/projetos/schemas.js",
+    "dist/modules/projetos/tools.js",
+    "dist/modules/projetos/write-tools.js",
+    "dist/server.js",
+    "dist/shared/http/dynaduo-api-client.js",
+    "dist/shared/mcp.js",
+    "dist/shared/outputs.js",
+    "dist/shared/validation.js",
+    "LICENSE",
+    "README.md",
+    "THIRD_PARTY_NOTICES.md"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.32.1",
+    "zod": "4.6.5"
+  }
+}
