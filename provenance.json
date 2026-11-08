@@ -4,7 +4,7 @@
   "package": "dynaduo4-mcp",
   "version": "0.4.0",
   "license": "MIT",
-  "sourceCommit": "fe66f864ff591582cb61b6658a213203d256a21d",
+  "sourceCommit": "ec0b6774a11654fa51d817f66249e92bf135eed1",
   "typescript": "7.0.2",
   "inputs": [
     {
