@@ -1,6 +1,6 @@
 # DynaDuo4 MCP
 
-Versão atual: **0.4.0**
+Versão atual: **0.5.0**
 
 Servidor MCP local (stdio) que expõe operações do DynaDuo4 como ferramentas
 orientadas ao domínio: módulos **CRM** e **Projetos**, com leitura e escrita.
@@ -56,6 +56,7 @@ cliente MCP inicia o launcher.
 
 | Variável | Obrigatória | Regra |
 |---|---|---|
+| `DYNADUO_ENV` | sim | Ambiente da base: `v3-prod`, `v4-homolog` ou `v4-prod`. Sem default; ausente ou fora da lista impede a subida. |
 | `DYNADUO_API_URL` | sim | Base da API incluindo `/api`, em `http` ou `https`. |
 | `DYNADUO_API_TOKEN` | sim | Token pessoal do DynaDuo4. Escolha **Somente leitura** para consultas; as ferramentas de escrita exigem um token **Leitura e escrita**, caso contrário a API responde HTTP 403. |
 | `DYNADUO_API_TIMEOUT_MS` | não | Inteiro positivo em milissegundos. Ausente equivale a `30000`. |
@@ -69,6 +70,8 @@ escreve apenas mensagens fixas em stderr.
 ### CRM — leitura
 
 - `crm_search_cards`: listagem paginada e filtrada de cards.
+- `crm_server_info`: ambiente declarado, URL base, versão do adaptador e contrato
+  lido de `crm/capabilities`; não devolve token nem concede escopo.
 - `crm_get_summary`: contagens do mesmo recorte, sem baixar os cards.
 - `crm_get_card`: projeções `full`, `operational` ou `state`; `state` suporta
   ETag/304.

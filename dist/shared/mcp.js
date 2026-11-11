@@ -24,7 +24,7 @@ export function toErrorResult(err) {
     if (err instanceof DynaDuoApiError) {
         const retryable = err.status === 429 || err.status >= 500;
         // 409 = conflito de concorrência (A3): reler a versão atual antes de regravar, não repetir cego.
-        const code = err.status === 409 ? 'conflict' : 'api_error';
+        const code = err.status === 409 ? 'conflict' : err.status === 403 ? (err.code ?? 'forbidden') : 'api_error';
         return {
             isError: true,
             content: [{ type: 'text', text: err.message }],

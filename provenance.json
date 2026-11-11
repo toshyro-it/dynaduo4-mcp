@@ -2,20 +2,20 @@
   "schemaVersion": 1,
   "tool": "dist/mcp-overlay@1",
   "package": "dynaduo4-mcp",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "license": "MIT",
-  "sourceCommit": "f6e1c7de7564dfb7d6fa1de7fd4653341005aca7",
+  "sourceCommit": "a9fd649d9803842e3ba082aad87df7692fdad413",
   "typescript": "7.0.2",
   "inputs": [
     {
       "path": "package.json",
-      "blob": "20e73efcd7c1c37e72e06d3185cf5a294739c709",
-      "sha256": "c3c9b4529253e8e9db88e189ce54ce2a2ed5bb0cc7758b796a7b6c849cd7d593"
+      "blob": "d47a5b9bf5af5fa38fcc517986557732655f6533",
+      "sha256": "1c49c475ee8f6db183a41dded37b5b758043ee0ef47a4d52926625480b4768b9"
     },
     {
       "path": "package-lock.json",
-      "blob": "6d51c4fde0fb35aab2c8a7fcbc9c8aacd8f8758d",
-      "sha256": "5e9b3f1b68095cd8eef13671458dac2b26c2ea59ebe988a2aca2def307383425"
+      "blob": "7b2c81570191d14d7901f8f474918fe352f10838",
+      "sha256": "481dfdbcca1678daee0edf144ed7219f054b93949f27461a64795264ee51919f"
     },
     {
       "path": "tsconfig.json",
@@ -39,13 +39,18 @@
     },
     {
       "path": "src/config.ts",
-      "blob": "3fb2d99ad7fc41909dd50fffdfa7bc9c2a778559",
-      "sha256": "f7cdfe74bb23f92b51522ee67d6fefa5a3605e5eccfc8973cad0524a2c0c7721"
+      "blob": "d99b6eb6337c5d18133a0efd25aed4b9e6d94f9a",
+      "sha256": "215588275d6ab42726a8c820a03e1fc40e9b9320133670a70e7810bfc18cc566"
     },
     {
       "path": "src/server.ts",
-      "blob": "4594d5b20e33bbfbd3b114422cbc3c518c51a633",
-      "sha256": "a9ea3dfbd1789fd29d6a76907c028f5c75060c3a10d13653925e8feeefe1fc67"
+      "blob": "3eea765277fb5fd0f624a5b8b6059a85c180f3e2",
+      "sha256": "84e5fde71c97d66c5fd4875807b6d8d32b8e1623391a809eaba3586e441de8a2"
+    },
+    {
+      "path": "src/version.ts",
+      "blob": "84c9946997d326c0c4ed5763188b3a6dda39daee",
+      "sha256": "5089e4b81549bc8b4e3541346f74ddbc07b6b5ee01a49fc0a576dc383d7ca378"
     },
     {
       "path": "src/modules/crm/schemas.ts",
@@ -53,9 +58,14 @@
       "sha256": "49b77a002d3a81adfc3457c6c57748dbe9e7978b93d76b89ae2b18a6e66851ab"
     },
     {
+      "path": "src/modules/crm/server-info.ts",
+      "blob": "ccf052813b437e4d7e0793fa30149043b0567fa4",
+      "sha256": "56b9110f0550c0f9cfd4051a5595af995fab7733555c5d780208bd28242513f3"
+    },
+    {
       "path": "src/modules/crm/tools.ts",
-      "blob": "28d626cdd39b246844fdb028c5e74558468039c4",
-      "sha256": "7c7b77a84bc1b18a9faf0658c98c338be5836c06dee5690e4a26cd9af0a5dbed"
+      "blob": "05af9c47f3154ecaf2e434f3fbeda0045c783430",
+      "sha256": "37e5582a5249a8afeb6b8fcb66199b7c2ea2ef96e436ecedf284c91033da4e3d"
     },
     {
       "path": "src/modules/crm/write-tools.ts",
@@ -69,8 +79,8 @@
     },
     {
       "path": "src/modules/projetos/tools.ts",
-      "blob": "da5419f8c92a91fc7b3cdf0c20ae1c96f447fe5a",
-      "sha256": "c00d71ec54de6adb75605b24abaf59bd8cd865a9fbd57d0eb5c5d0fb365bfec6"
+      "blob": "e243c687d6d0ce5118cbdc04f50158552e55d8ea",
+      "sha256": "f23b9f18a13b4a14a5db011202cc233a71c82f7e4df0795911fed8624f5d8963"
     },
     {
       "path": "src/modules/projetos/write-tools.ts",
@@ -79,13 +89,13 @@
     },
     {
       "path": "src/shared/http/dynaduo-api-client.ts",
-      "blob": "cdf0000257cb0e1dc8b2b345303202495145f459",
-      "sha256": "aab65fcbabe5374ba3d7fa2b1995e2320b90c71633001be65458138fb5158777"
+      "blob": "539953c6134ed6d5fb16f7b8d14824d4719c2556",
+      "sha256": "1c5bbbbfe62802b60359d7b2cd0849f020f95f9d8fbd6f2eb06171e14b6a9892"
     },
     {
       "path": "src/shared/mcp.ts",
-      "blob": "b0062355abc7e61460b20e9ad8a5416c9788d208",
-      "sha256": "18dae7a7b5cda375e48cf8f737f877e0b15d6b70302e137270569f951a6d63dc"
+      "blob": "e80d41222ab59b6b14859c729b2c4278e98628a2",
+      "sha256": "4fc2899b8ce1e2c69d4d4af180331fd020fc47b8cc69a820b74f3761c38bd0e5"
     },
     {
       "path": "src/shared/outputs.ts",
@@ -99,8 +109,8 @@
     },
     {
       "path": "distribution/README.public.md",
-      "blob": "60a58a448b00ee088a19e2a542d07b2952ed0cda",
-      "sha256": "6961118a46563a2d53a63691a8572b9eed678a6e61e80b868ab0e2739380cbda"
+      "blob": "8f6aa2b2ed89727f3dbefa49cb07ece42aa465b3",
+      "sha256": "928ab8d9038ff2ac7ff94109df95e7acd0d4e5c1c19d8513d9a78b22217cfebd"
     },
     {
       "path": "distribution/THIRD_PARTY_NOTICES.md",
@@ -109,13 +119,13 @@
     },
     {
       "path": "distribution/release/VERSION",
-      "blob": "1d0ba9ea182b0f7354f3daf12120744ec5e0c2f8",
-      "sha256": "40b8eb4000a913a7791090535f291d3d369874162a89ef3c9e3d4e887a1b9e79"
+      "blob": "8f0916f768f0487bcf8d33827ce2c8dcecb645c1",
+      "sha256": "a0ad50640139a524f86591157145bf1d4674ea9c065bfea21558f0f7b04430c8"
     },
     {
       "path": "distribution/release/RELEASE_NOTES.md",
-      "blob": "160b1afe9ff07cb0471151c965098801a45a49b7",
-      "sha256": "e75936550208932526c5ee9a9f345d53e334eea311f8310f9a1156a7f361d7d1"
+      "blob": "b59d99cf228d59ed0076023f09c9e84c5cdc3351",
+      "sha256": "1b48b5ea3b6509f3196c72962feafd29baa38af92ad1867b4f00f96cec9e7d01"
     },
     {
       "path": "distribution/release/LICENSE_REVIEW.md",
@@ -131,8 +141,8 @@
     },
     {
       "path": "dist/config.js",
-      "bytes": 941,
-      "sha256": "ff3d74c942baf8b33e8202cf485ad6f553b7ea11ec5492eb56f386acb3eec129"
+      "bytes": 2302,
+      "sha256": "f379f0a49b877291fe4790f7772f315621d8063c0aa7214e12add25022172828"
     },
     {
       "path": "dist/index.js",
@@ -145,9 +155,14 @@
       "sha256": "27d4e0982f4e9d6d24bc1787d2eae69bf5caa266794f6151ad5f9ca54d7e4ba2"
     },
     {
+      "path": "dist/modules/crm/server-info.js",
+      "bytes": 2022,
+      "sha256": "a25247dfda3cd93f0c71d908e244aa255dc8fe4fdae6461d67d122b018800d10"
+    },
+    {
       "path": "dist/modules/crm/tools.js",
-      "bytes": 10609,
-      "sha256": "32cf04d7e134f2c0d0e4c08c2bc56b65bf5475bc60e8c491a3c482c08bee754f"
+      "bytes": 12438,
+      "sha256": "3ec1686d7d472a728339dfa6cf7229ee3e2b474efa943d65d4cfb10ef0b23edf"
     },
     {
       "path": "dist/modules/crm/write-tools.js",
@@ -161,8 +176,8 @@
     },
     {
       "path": "dist/modules/projetos/tools.js",
-      "bytes": 5723,
-      "sha256": "0e5624bd4ace284bbf05319b7b6f07201207ed47641d591788acef3414e2186b"
+      "bytes": 5833,
+      "sha256": "b76f9f57fea21ddfe41e57cedda18f49284c0926fe233d0dcdb77e546d110f6b"
     },
     {
       "path": "dist/modules/projetos/write-tools.js",
@@ -171,18 +186,18 @@
     },
     {
       "path": "dist/server.js",
-      "bytes": 1988,
-      "sha256": "018d33efde01abb3c05c9ed4a64b26c43109b768b9449183b962172a993e8e4a"
+      "bytes": 2736,
+      "sha256": "65f31b210e1f23b0d64046be5d52739e05527e5a1d5f72e032511c392d6cabcd"
     },
     {
       "path": "dist/shared/http/dynaduo-api-client.js",
-      "bytes": 7816,
-      "sha256": "d781611ac9e5e83ac9af1c3f7716d67846a5607184150dba17ab9c96f8bd17da"
+      "bytes": 12725,
+      "sha256": "e0ec6278f0346536a53004dfad306b055d2259b1e0fa1adc04566a9ccf3a59cb"
     },
     {
       "path": "dist/shared/mcp.js",
-      "bytes": 2531,
-      "sha256": "2f19289a3e7835ef0c81e6e8d9eaf2f2ebaf7d2c3ca55f9aa0bd8fbe2178071c"
+      "bytes": 2580,
+      "sha256": "c3f3459080d634b990e3ab1bbff1e0fca791931e6c02d3ccfc12495aabff4aba"
     },
     {
       "path": "dist/shared/outputs.js",
@@ -195,24 +210,34 @@
       "sha256": "416077afc9d1e49b7dc52cbb6190f6e62b8819aae7368d39b1eceeee0d4f2f80"
     },
     {
+      "path": "dist/version.js",
+      "bytes": 216,
+      "sha256": "91ea85f1247d873d7dc073b7e2aaede402b095eae335aa66ca3420092801a6a6"
+    },
+    {
       "path": "LICENSE",
       "bytes": 1093,
       "sha256": "e54c87a644804ce2c0e7a2ccbcaac60d291d9f8365e827789bf780baccfb5dd8"
     },
     {
       "path": "package-lock.json",
-      "bytes": 43244,
-      "sha256": "7b8ffc6568095303aa2d71e64b84931b246be558a2a1386a0428b477084026ab"
+      "bytes": 43342,
+      "sha256": "b15c3fa70c04fb36fecd7323772649e536e0c07b8750d3b54abe896a5d1385f5"
     },
     {
       "path": "package.json",
-      "bytes": 932,
-      "sha256": "8ec8ecccaf7328ec380311e74b5d6db4f7e134649e7851a1071cb2c7391d1d02"
+      "bytes": 1018,
+      "sha256": "40bf43d46f93a6af96bcc8b6bfd9bd087bd6d6ae70ca6427ca999bae34622da0"
     },
     {
       "path": "README.md",
-      "bytes": 5206,
-      "sha256": "6961118a46563a2d53a63691a8572b9eed678a6e61e80b868ab0e2739380cbda"
+      "bytes": 5495,
+      "sha256": "928ab8d9038ff2ac7ff94109df95e7acd0d4e5c1c19d8513d9a78b22217cfebd"
+    },
+    {
+      "path": "RELEASE_NOTES.md",
+      "bytes": 6625,
+      "sha256": "1b48b5ea3b6509f3196c72962feafd29baa38af92ad1867b4f00f96cec9e7d01"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",

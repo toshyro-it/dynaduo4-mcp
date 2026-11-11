@@ -41,7 +41,7 @@ export function registerProjetoTools(server, api) {
             destructiveHint: false,
             openWorldHint: false,
         },
-    }, safe(async (input) => {
+    }, safe(async (input, { signal }) => {
         const invalid = rangeError(input);
         if (invalid)
             return invalid;
@@ -49,7 +49,7 @@ export function registerProjetoTools(server, api) {
             page: input.page,
             pageSize: input.pageSize,
             ...filters(input),
-        });
+        }, signal);
         return result(data, `Foram retornados ${data.items.length} de ${data.totalCount} projetos. ` +
             `Página ${data.page} de ${data.totalPages}; hasNext=${data.hasNext}.`);
     }));
@@ -65,11 +65,11 @@ export function registerProjetoTools(server, api) {
             destructiveHint: false,
             openWorldHint: false,
         },
-    }, safe(async (input) => {
+    }, safe(async (input, { signal }) => {
         const invalid = rangeError(input);
         if (invalid)
             return invalid;
-        const data = await api.get('projetos/resumo', filters(input));
+        const data = await api.get('projetos/resumo', filters(input), signal);
         return result(data, `O recorte contém ${data.total} projetos.`);
     }));
     server.registerTool('projeto_get_project', {
@@ -83,8 +83,8 @@ export function registerProjetoTools(server, api) {
             destructiveHint: false,
             openWorldHint: false,
         },
-    }, safe(async ({ id }) => {
-        const data = await api.get(`projetos/${id}`);
+    }, safe(async ({ id }, { signal }) => {
+        const data = await api.get(`projetos/${id}`, {}, signal);
         const descricao = typeof data.descricao === 'string' ? data.descricao : 'sem descrição';
         return result(data, `Projeto ${id}: ${descricao}.`);
     }));
@@ -100,11 +100,11 @@ export function registerProjetoTools(server, api) {
             destructiveHint: false,
             openWorldHint: false,
         },
-    }, safe(async (input) => {
+    }, safe(async (input, { signal }) => {
         const data = await api.get('projetos/contratos-cliente', {
             busca: input.busca,
             ativo: input.ativo,
-        });
+        }, signal);
         return result(data, `Foram encontrados ${data.length} contratos-cliente.`);
     }));
     server.registerTool('projeto_list_clientes', {
@@ -118,8 +118,8 @@ export function registerProjetoTools(server, api) {
             destructiveHint: false,
             openWorldHint: false,
         },
-    }, safe(async () => {
-        const data = await api.get('projetos/resumo', {});
+    }, safe(async (_input, { signal }) => {
+        const data = await api.get('projetos/resumo', {}, signal);
         return result(data.porCliente, `Foram encontrados ${data.porCliente.length} clientes com projetos.`);
     }));
 }
