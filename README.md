@@ -1,6 +1,6 @@
 # DynaDuo4 MCP
 
-Versão atual: **0.5.0**
+Versão atual: **0.5.1**
 
 Servidor MCP local (stdio) que expõe operações do DynaDuo4 como ferramentas
 orientadas ao domínio: módulos **CRM** e **Projetos**, com leitura e escrita.

@@ -2,20 +2,20 @@
   "schemaVersion": 1,
   "tool": "dist/mcp-overlay@1",
   "package": "dynaduo4-mcp",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "license": "MIT",
-  "sourceCommit": "a9fd649d9803842e3ba082aad87df7692fdad413",
+  "sourceCommit": "19041a1f90bcd6c9f1e43e8fbea48583c28335f5",
   "typescript": "7.0.2",
   "inputs": [
     {
       "path": "package.json",
-      "blob": "d47a5b9bf5af5fa38fcc517986557732655f6533",
-      "sha256": "1c49c475ee8f6db183a41dded37b5b758043ee0ef47a4d52926625480b4768b9"
+      "blob": "85a5c0c9e99ac23e193d1f2aa47e05111c38e566",
+      "sha256": "188f74f392bef923400011b11472c53daa3a149d891bc27d7355328c3a0e6ee6"
     },
     {
       "path": "package-lock.json",
-      "blob": "7b2c81570191d14d7901f8f474918fe352f10838",
-      "sha256": "481dfdbcca1678daee0edf144ed7219f054b93949f27461a64795264ee51919f"
+      "blob": "047a07f420064b23f7d3966772a519d8b8b33a20",
+      "sha256": "b46e6c2347e99f23b203a1f02a510780612c433ab812389f7fa1b59ddb684f5c"
     },
     {
       "path": "tsconfig.json",
@@ -49,8 +49,8 @@
     },
     {
       "path": "src/version.ts",
-      "blob": "84c9946997d326c0c4ed5763188b3a6dda39daee",
-      "sha256": "5089e4b81549bc8b4e3541346f74ddbc07b6b5ee01a49fc0a576dc383d7ca378"
+      "blob": "ee19aa29048523b916c01afbc2a29d0ad48591da",
+      "sha256": "0f3a3ab2298740f417859118a0cf69843c39114f789d3321e054c9a478fd38de"
     },
     {
       "path": "src/modules/crm/schemas.ts",
@@ -109,8 +109,8 @@
     },
     {
       "path": "distribution/README.public.md",
-      "blob": "8f6aa2b2ed89727f3dbefa49cb07ece42aa465b3",
-      "sha256": "928ab8d9038ff2ac7ff94109df95e7acd0d4e5c1c19d8513d9a78b22217cfebd"
+      "blob": "e0605a6ce6015c47cb8445968bcf2ebb51b5e3a8",
+      "sha256": "3d2f69b88b1e1db94932c410e1958f50849c6599caac94ebedd82b6c925055ca"
     },
     {
       "path": "distribution/THIRD_PARTY_NOTICES.md",
@@ -119,13 +119,13 @@
     },
     {
       "path": "distribution/release/VERSION",
-      "blob": "8f0916f768f0487bcf8d33827ce2c8dcecb645c1",
-      "sha256": "a0ad50640139a524f86591157145bf1d4674ea9c065bfea21558f0f7b04430c8"
+      "blob": "4b9fcbec101a6ff8ec68e0f95131ccda4861407f",
+      "sha256": "aba951626c8690ce493cbc8f018205bb468003f61fbf00fd3d3c71cebabc0177"
     },
     {
       "path": "distribution/release/RELEASE_NOTES.md",
-      "blob": "b59d99cf228d59ed0076023f09c9e84c5cdc3351",
-      "sha256": "1b48b5ea3b6509f3196c72962feafd29baa38af92ad1867b4f00f96cec9e7d01"
+      "blob": "ca4d6815f11f62a75a61ae0decede679567ad3c0",
+      "sha256": "212b399a98b91216eacefc295a724e59b9829348575d0739a9c44617faea1d77"
     },
     {
       "path": "distribution/release/LICENSE_REVIEW.md",
@@ -212,7 +212,7 @@
     {
       "path": "dist/version.js",
       "bytes": 216,
-      "sha256": "91ea85f1247d873d7dc073b7e2aaede402b095eae335aa66ca3420092801a6a6"
+      "sha256": "c73b795cc24b9e19c5a5a22bd55cacf6ee90096dd311dd59ae9ab1fea12b5bf1"
     },
     {
       "path": "LICENSE",
@@ -222,22 +222,22 @@
     {
       "path": "package-lock.json",
       "bytes": 43342,
-      "sha256": "b15c3fa70c04fb36fecd7323772649e536e0c07b8750d3b54abe896a5d1385f5"
+      "sha256": "a930ab343de5092f796d1104f907856ad67f1ffbcb644020e7e36ac2f84567fb"
     },
     {
       "path": "package.json",
       "bytes": 1018,
-      "sha256": "40bf43d46f93a6af96bcc8b6bfd9bd087bd6d6ae70ca6427ca999bae34622da0"
+      "sha256": "677c45dfaa35cb4e343f46fbf3bc1251e2ce94c0fb6ba204a32601b98bb105e9"
     },
     {
       "path": "README.md",
       "bytes": 5495,
-      "sha256": "928ab8d9038ff2ac7ff94109df95e7acd0d4e5c1c19d8513d9a78b22217cfebd"
+      "sha256": "3d2f69b88b1e1db94932c410e1958f50849c6599caac94ebedd82b6c925055ca"
     },
     {
       "path": "RELEASE_NOTES.md",
-      "bytes": 6625,
-      "sha256": "1b48b5ea3b6509f3196c72962feafd29baa38af92ad1867b4f00f96cec9e7d01"
+      "bytes": 4135,
+      "sha256": "212b399a98b91216eacefc295a724e59b9829348575d0739a9c44617faea1d77"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
